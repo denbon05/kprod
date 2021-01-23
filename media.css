@@ -1,0 +1,64 @@
+@media only screen and (min-width: 768px) {
+	.cards-content {
+		display: grid;
+		grid-gap: 46px;
+		grid-column: auto auto;
+	}
+
+	.title-container {
+		grid-column: 1/3;
+	}
+
+	hr {
+		width: 50px;
+	}
+
+	.title {
+		font-weight: 500;
+		font-size: 46px;
+		margin-left: -47px;
+		margin-bottom: -20px;
+		margin-top: 20px;
+		letter-spacing: 2% ;
+	}
+
+	.card-description {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+		padding: 127px 110px;
+	}
+	
+	.title {
+		line-height: 51px;
+	}
+
+	.card-description {
+		font-weight: bold;
+		line-height: 28px;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.cards-content {
+		display: grid;
+		grid-gap: 30px;
+		grid-column: auto auto auto;
+	}
+	
+	.title {
+		letter-spacing: 64%;
+	}
+
+	.title-container {
+		grid-column: 1/4;
+		margin-bottom: 50px;
+	}
+
+	hr {
+		width: 50px;
+	}
+}

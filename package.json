@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/denbon05/kprod/issues"
   },
-  "homepage": "https://github.com/denbon05/kprod#readme"
+  "homepage": "https://github.com/denbon05/kprod#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
